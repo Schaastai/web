@@ -1,0 +1,301 @@
+header{
+    background-color: #e3fbe3;
+    padding: 1px 0;
+}
+
+.painel{
+
+    width: 1540px;
+    margin: 0px auto 0px auto;
+    position: relative;
+    /*
+    Deixa a posiçao relativa ao painel
+
+    */
+}
+
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration:none;
+}
+
+nav li{
+ display: inline;
+ margin-left: 60px;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav{
+    position: absolute;
+    top: 80px;
+    right: 0px;
+
+}
+nav a:hover{
+    color: #c78c19;
+    text-decoration: underline;
+}
+
+.lista-produtos{
+    width: 940px;
+    margin: 0px auto;
+    padding: 100px 0px;
+    
+}
+
+.lista-produtos li{
+    display: inline-block;
+    margin: 5px;
+    padding: 50px 20px;
+    text-align: center;
+    margin: 0 1.2%;
+    box-sizing: border-box;
+    /* fac com que o padding fique dentro dos 30% do width */
+    width: 30%;    
+    /*background-color: #e3fbe3; */
+    border: 3px inset lime;
+    border-radius: 20px;
+}
+
+p{
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.preço{
+    color: #c78c19;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.lista-produtos h2{
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+.produto-desc{
+    font-size: 16px;
+    font-style: initial;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: purple;
+    font-weight: bold;
+
+}
+/* cursor passando sobre o item */
+.lista-produtos li:hover{
+    border-color: aqua;
+}
+/* cursor apertando/ativando o item */
+.lista-produtos li:active{
+    border-color: lime;
+}
+/* pseudo classes CSS
+:hover, :active, :link, :visited, :first-chil, :nth-child(), etc */
+
+.lista-produtos li:hover h2{
+    font-size: 22px;
+}
+
+footer {
+    background-image: url(bg.png);
+    text-align: center;
+    padding: 30px 0px;
+}
+
+.copyright{
+    color: beige;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#main1{
+    width: 940px;
+    margin: 0px auto;
+    
+}
+
+form{
+    margin: 40px 0;
+}
+
+form label{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px auto;
+}
+
+.entrada{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    border-radius: 10px;
+    border: 3px inset purple;
+    width: 50%;
+}
+
+input{
+text-align: center;
+}
+
+.enviar{
+    width: 40%;
+    padding: 5px 0;
+    background-color: lime;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.enviar:hover{
+background-color: darkgreen;
+}
+.enviar:active{
+    transform: scale(0.95);
+}
+
+/* Força dos marcadores:
+Exemplo:
+tag; força 1
+classe; força 10
+id; força 100
+css inline; superior a todos
+*/
+.banner{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.titulo-principal{
+    text-align: center;
+    font-size: 3em;
+    /* 2 vezes o tamanho original da fonte */
+    font-style: italic;
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: rgba(15, 230, 15, 0.5)
+    
+}
+
+#logo{
+    position: absolute;
+}
+
+.subtitulo{
+    text-align: center;
+    font-size: 1.5em;
+    margin: 0 0 1em;
+}
+
+.principal p{
+ text-align: center;
+ margin: 0 0 1em;
+ line-height: 1.3em;
+
+}
+
+.principal em{
+    font-style: italic;
+    font-size: 1.2em;
+}
+
+.principal strong{
+    font-weight: bold;
+}
+.principal{
+    text-align: center;
+    background-color: #e3fbe3;
+    padding: 3em 1em ;
+
+}
+
+.produtos{
+    padding: 20px;
+    background-color: #e3fbe3;
+}
+
+.produtos ul{
+    display: inline-block;
+    vertical-align: top;
+    line-height: 3em;
+    width: 20%;
+    margin-left: 20%;
+}  
+
+.itens{
+    font-style: italic;
+}
+
+.imagem-produtos{
+    width: 45%;
+    margin: 0 auto;
+    opacity: 1;
+}
+ .imagem-produtos:hover{
+    opacity: 1;
+    transition: 1s;
+    /*x y espalhamento(blur) intensidade_borda cor  */
+    box-shadow: 8px 8px 8px 1px green;
+ }
+.mapa{
+    padding: 3em 0px;
+}
+
+.mapa p{
+    margin: 0 0 2em;
+    text-align: center;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 2em;
+}
+
+main{
+     width: 940px;
+     margin: 0px auto;
+}
+
+/*
+ first child
+ last-child
+ nth-child(2)
+ nth-child(2n) = pars
+ nth-child(2n+1) = impares
+ nth-chilf(even) = pares
+ nth-child(odd) = impares
+
+ */
+/*
+ .itens:nth-child(odd){
+    color: #c78c19;
+ }
+
+ .titulo-principal:before{
+    content: '{';
+ }
+ .titulo-principal::after{
+    content: '}';
+ }
+ */
+
+ .itens:before{
+    content: '🌻';
+    font-size: 0.9em;
+ }
+
+ /* seletores avançados : */
+ /*
+ main > p{
+    background-color: #c78c19;
+ }
+
+ h2 + p{
+    background-color: aqua;
+ }
+ */
+ /* h2 ~ p { background-color: yellow;
