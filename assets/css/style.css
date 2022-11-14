@@ -103,7 +103,7 @@ p{
 }
 
 footer {
-    background-image: url(bg.png);
+    background-image: url(../images/bg.png);
     text-align: center;
     padding: 30px 0px;
 }
@@ -172,6 +172,7 @@ css inline; superior a todos
 .banner{
     width: 100%;
     margin-bottom: 20px;
+    height: 250px;
 }
 
 .titulo-principal{
